@@ -31,7 +31,7 @@ func main() {
 			message := Message{
 				Email:           "kcemmy03@gmail.com",
 				CurrentDateTime: nowTime.Format(time.RFC3339),
-				GithubUrl:       "https://github.com/Manuelshub/HNG12_Internship/tree/main/hng12_stage0",
+				GithubUrl:       "https://github.com/Manuelshub/hng12_stage0",
 			}
 
 			err := json.NewEncoder(w).Encode(message)
