@@ -34,3 +34,23 @@ This Project is about implementing a public API to retrieve basic information
 - The API must accept GET requests and return the required JSON response.
 - The current_datetime field must be dynamically generated in ISO 8601 format (UTC).
 - Provides appropriate HTTP status code
+
+## Example Usage
+
+Using `curl`:
+
+```sh
+curl -X GET https://https://hng12-stage0.fly.dev/
+```
+
+## Deployment
+
+The API is deployed to a publicly accessible endpoint. Ensure that it remains available and properly configured for production use.
+
+---
+
+## Contributors
+
+- **Emmanuel Ifediora** – [GitHub Profile](https://github.com/Manuelshub)
+
+For more Go developers, visit: [Hire Go Developers](https://hng.tech/hire/golang-developers)
